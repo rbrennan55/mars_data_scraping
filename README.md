@@ -22,15 +22,15 @@ You will work in this code as you follow the steps below to scrape the Mars News
 
 3.	Extract the titles and preview text of the news articles that you scraped. Store the scraping results in Python data structures as follows:
 
-    o	Store each title-and-preview pair in a Python dictionary and, give each dictionary two keys: title and preview. An example is the following:
+    •	Store each title-and-preview pair in a Python dictionary and, give each dictionary two keys: title and preview. An example is the following:
 
-    o	{'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm", 
+    •	{'title': "NASA's MAVEN Observes Martian Light Show Caused by Major Solar Storm", 
 
-    o	 'preview': "For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27."}
+    •	 'preview': "For the first time in its eight years orbiting Mars, NASA’s MAVEN mission witnessed two different types of ultraviolet aurorae simultaneously, the result of solar storms that began on Aug. 27."}
 
-    o	Store all the dictionaries in a Python list.
+    •	Store all the dictionaries in a Python list.
 
-    o	Print the list in your notebook.
+    •	Print the list in your notebook.
 
 4.	Optionally, store the scraped data in a file (to ease sharing the data with others). To do so, export the scraped data to a JSON file. (Note: there will be no extra points for completing this.)
 
@@ -45,45 +45,35 @@ You will work in this code as you follow the steps below to scrape and analyze M
 3.	Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
 
      - id: the identification number of a single transmission from the Curiosity rover
-
      - terrestrial_date: the date on Earth
-
      - sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
-
      - ls: the solar longitude
-
      - month: the Martian month
-
      - min_temp: the minimum temperature, in Celsius, of a single Martian day (sol)
-
      - pressure: The atmospheric pressure at Curiosity's location
-
 
 4.	Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
 
 5.	Analyze your dataset by using Pandas functions to answer the following questions:
 
-    o	How many months exist on Mars?
+    •	How many months exist on Mars?
 
-    o	How many Martian (and not Earth) days worth of data exist in the scraped dataset?
+    •	How many Martian (and not Earth) days worth of data exist in the scraped dataset?
 
-    o	What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
+    •	What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
 
-        - Find the average minimum daily temperature for all of the months.
+       - Find the average minimum daily temperature for all of the months.
+       - Plot the results as a bar chart.
 
-        - Plot the results as a bar chart.
+    •	Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
 
-    o	Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
+       - Find the average daily atmospheric pressure of all the months.
+       - Plot the results as a bar chart.
 
-	    - Find the average daily atmospheric pressure of all the months.
+    •	About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
 
-	    - Plot the results as a bar chart.
-
-    o	About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
-
-	    - Consider how many days elapse on Earth in the time that Mars circles the Sun once.
-
-	    - Visually estimate the result by plotting the daily minimum temperature.
+       - Consider how many days elapse on Earth in the time that Mars circles the Sun once.
+       - Visually estimate the result by plotting the daily minimum temperature.
 
 6.	Export the DataFrame to a CSV file.
 
@@ -104,15 +94,12 @@ You will work in this code as you follow the steps below to scrape and analyze M
 •	The data was analyzed to answer the following questions: (10 points)
 
     o	How many months exist on Mars? (5 points)
-
     o	How many Martian days' worth of data are there? (5 points)
 
 •	The data was analyzed to answer the following questions, and a data visualization was created to support each answer: (30 points)
 
     o	Which month, on average, has the lowest temperature? The highest? (10 points)
-
     o	Which month, on average, has the lowest atmospheric pressure? The highest? (10 points)
-
     o	How many terrestrial days exist in a Martian year? A visual estimate within 25% was made. (10 points)
 
 •	The DataFrame was exported into a CSV file. (5 points)
