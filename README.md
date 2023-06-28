@@ -91,7 +91,7 @@ You will work in this code as you follow the steps below to scrape and analyze M
 
 •	The HTML table was extracted into a Pandas DataFrame. Either Pandas or Splinter and Beautiful Soup were used to scrape the data. The columns have the correct headings and data types. (15 points)
 
-•	The data was analyzed to answer the following questions: (10 points)
+•	The data was analyzed to answer the following questions: (10 points):
 
     - How many months exist on Mars? (5 points)
     - How many Martian days' worth of data are there? (5 points)
