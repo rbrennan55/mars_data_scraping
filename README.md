@@ -8,9 +8,14 @@ This new assignment consists of two technical products. You will submit the foll
 •	Deliverable 2: Scrape and analyze Mars weather data, which exists in a table.
 
 ## Solution Files Submitted
+• /Mars Temperature Data.csv
+
+• /README.md (this file)
+
 • /part_1_mars_news.ipynb
 
 • /part_2_mars_weather.ipynb
+
 
 ## Instructions
 ### Part 1: Scrape Titles and Preview Text from Mars News
